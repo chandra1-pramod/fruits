@@ -1,0 +1,68 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+}
+
+h1, h2 {
+  color: #28a745;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+.container {
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center horizontally */
+}
+#home-section {
+  background-image: url('https://thumbs.dreamstime.com/z/fruit-vegetable-textures-9966904.jpg'); /* Test with a placeholder */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  color: rgb(65, 20, 200); /* Sets text color to white for better contrast */
+  padding: 100px 0; /* Increases top and bottom padding */
+  min-height: 60vh; /* Sets a minimum height for the section */
+  display: flex; /* Enables flexbox for centering */
+  flex-direction: column; /* Stacks content vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+}
+.buy-btn {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Vertical and horizontal padding */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+.buy-btn:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.buy-btn:active {
+  transform: scale(0.95); /* Slightly decrease size when clicked */
+}
+/* Update your App3.css file with the following styles */
+
+.product-image {
+width: 100%;
+height: 150px; /* Set fixed height */
+object-fit: cover; /* Ensure images cover the area without distortion */
+border-radius: 10px; /* Smooth corners for the image */
+overflow: hidden; /* Prevent overflow if necessary */
+}
